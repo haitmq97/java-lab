@@ -1,0 +1,16 @@
+package me.haitmq.spring.mvc.crud.service;
+
+import java.util.List;
+
+import me.haitmq.spring.mvc.crud.entity.User;
+
+public interface UserService extends PagingAndSortingRepository<Product, Integer> {
+	
+	public void save(User user);
+	
+	public User getUser(int theId);
+	
+	public List<User> getUserList();
+	
+	
+}

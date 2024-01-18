@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Jan 17 00:36:48 ICT 2024
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Admin\\Desktop\\PRJ123\\lab\\PRJ321x_Project1_haitmqfx22585\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Admin\\Desktop\\PRJ123\\lab\\PRJ321x_Project1_haitmqfx22585\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar

@@ -1,0 +1,15 @@
+package me.haitmq.spring.mvc.crud.dao;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.query.Param;
+
+import me.haitmq.spring.mvc.crud.entity.User;
+
+public interface AnotherUserDAO extends PagingAndSortingRepository<User, Long> {
+
+    @Query("SELECT e FROM YourEntity e WHERE e.email LIKE %:search% OR e.phoneNumber LIKE %:search%")
+    Page<YourEntity> findByEmailOrPhoneNumber(@Param("search") String search, Pageable pageable);
+}

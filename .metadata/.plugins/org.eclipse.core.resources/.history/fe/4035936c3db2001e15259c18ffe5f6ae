@@ -1,0 +1,5 @@
+package me.haitmq.spring.mvc.crud.dao;
+
+public interface AnotherUserDAO {
+
+}

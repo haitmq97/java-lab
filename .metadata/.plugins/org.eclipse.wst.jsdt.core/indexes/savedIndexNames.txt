@@ -1,0 +1,16 @@
+INDEX VERSION 1.4+C:\Users\Admin\Desktop\PRJ123\lab\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3036082698.index
+35654975.index
+3211692915.index
+890632691.index
+1567714943.index
+123176226.index
+1517585305.index
+827552485.index
+4076143911.index
+3875347405.index
+1210396234.index
+3023481978.index
+3365488601.index
+1017361880.index
+2887559241.index
